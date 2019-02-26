@@ -1,7 +1,5 @@
 package methodReference;
 
-import comparator.Employee;
-
 import java.util.Comparator;
 import java.util.function.*;
 
@@ -60,7 +58,7 @@ public class MethodReference {
         System.out.println("");
 
         // Compile-time error: type inference failure in apply function
-        //printAll(dept, comparator.Employee::getSalary);
+        //printAll(dept, Employee::getSalary);
 
         printAll(dept, emp -> " " + emp.getSalary());
 
