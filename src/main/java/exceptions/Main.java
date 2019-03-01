@@ -1,5 +1,7 @@
 package exceptions;
 
+import java.io.File;
+import java.io.FileReader;
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -39,13 +41,34 @@ public class Main {
 
         System.out.println("**************************");
 
-        try {
+        /*try {
             int result = divide3();
             System.out.println(result);
         } catch(ArithmeticException | NoSuchElementException e) {
             System.out.println(e.toString());
             System.out.println("Unable to perform division");
-        }
+        }*/
+
+        System.out.println("**************************");
+
+        /*int a[] = new int[2];
+        try {
+            System.out.println("Access element three :" + a[3]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Exception thrown  :" + e);
+        }finally {
+            a[0] = 6;
+            System.out.println("First element value: " + a[0]);
+            System.out.println("The finally statement is executed");
+        }*/
+
+        //checked exception
+        //File file = new File("E://file.txt");
+        //FileReader fr = new FileReader(file);
+
+        //unchecked exception
+        //int num[] = {1, 2, 3, 4};
+        //System.out.println(num[5]);
     }
 
     private static int getInt2() {
