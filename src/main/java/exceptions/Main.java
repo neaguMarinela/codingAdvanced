@@ -51,6 +51,8 @@ public class Main {
 
         System.out.println("**************************");
 
+        // You can actually handle RuntimeExceptions if you want to;
+        // for example, here we handle an ArrayIndexOutOfBoundsException
         /*int a[] = new int[2];
         try {
             System.out.println("Access element three :" + a[3]);
@@ -66,9 +68,18 @@ public class Main {
         //File file = new File("E://file.txt");
         //FileReader fr = new FileReader(file);
 
+        System.out.println("**************************");
+
         //unchecked exception
         //int num[] = {1, 2, 3, 4};
         //System.out.println(num[5]);
+
+        System.out.println("**************************");
+
+        // Null pointer exception ....
+        String text = null;
+        System.out.println(text.length());
+
     }
 
     private static int getInt2() {
@@ -133,5 +144,4 @@ public class Main {
 //            throw new ArithmeticException("attempt to divide by zero");
 //        }
     }
-
 }
