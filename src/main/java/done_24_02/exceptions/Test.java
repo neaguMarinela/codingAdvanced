@@ -1,4 +1,4 @@
-package exceptions;
+package done_24_02.exceptions;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

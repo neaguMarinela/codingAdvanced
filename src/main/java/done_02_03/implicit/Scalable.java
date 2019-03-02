@@ -1,4 +1,4 @@
-package implicit;
+package done_02_03.implicit;
 
 public interface Scalable {
 

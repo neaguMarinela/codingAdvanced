@@ -1,4 +1,4 @@
-package exceptions;
+package done_24_02.exceptions;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -29,7 +29,7 @@ public class App {
             e.printStackTrace();
         }
  
-        // Using polymorphism to catch the parent of all exceptions
+        // Using polymorphism to catch the parent of all done_24_02.exceptions
         try {
             test.run();
         } catch (Exception e) {
@@ -39,9 +39,9 @@ public class App {
 
         //test.input();
 
-        // Important to catch exceptions in the right order!
+        // Important to catch done_24_02.exceptions in the right order!
         // IOException cannot come first, because it's the parent
-        // of FileNotFoundException, so would catch both exceptions
+        // of FileNotFoundException, so would catch both done_24_02.exceptions
         // in this case.
         try {
             test.input();

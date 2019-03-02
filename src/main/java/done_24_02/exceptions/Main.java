@@ -1,9 +1,6 @@
-package exceptions;
+package done_24_02.exceptions;
 
-import java.io.File;
-import java.io.FileReader;
 import java.util.InputMismatchException;
-import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Main {
@@ -41,13 +38,13 @@ public class Main {
 
         System.out.println("**************************");
 
-        /*try {
+        try {
             int result = divide3();
             System.out.println(result);
-        } catch(ArithmeticException | NoSuchElementException e) {
+        } catch(Exception e) {
             System.out.println(e.toString());
             System.out.println("Unable to perform division");
-        }*/
+        }
 
         System.out.println("**************************");
 
@@ -77,8 +74,8 @@ public class Main {
         System.out.println("**************************");
 
         // Null pointer exception ....
-        String text = null;
-        System.out.println(text.length());
+        //String text = null;
+        //System.out.println(text.length());
 
     }
 

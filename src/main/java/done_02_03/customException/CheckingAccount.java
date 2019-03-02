@@ -1,18 +1,16 @@
-package customException;
+package done_02_03.customException;
 
 public class CheckingAccount {
     private double balance;
     private int number;
-
     public CheckingAccount(int number) {
         this.number = number;
     }
-
     public void deposit(double amount) {
         balance += amount;
     }
-
-    public void withdraw(double amount) throws InsufficientFundsException {
+    public void withdraw(double amount) throws
+            InsufficientFundsException {
         if(amount <= balance) {
             balance -= amount;
         }else {
@@ -20,11 +18,6 @@ public class CheckingAccount {
             throw new InsufficientFundsException(needs);
         }
     }
-
-    public double getBalance() {
-        return balance;
-    }
-
     public int getNumber() {
         return number;
     }

@@ -1,4 +1,4 @@
-package customException;
+package done_02_03.customException;
 
 public class BankDemo {
 
@@ -13,7 +13,8 @@ public class BankDemo {
             System.out.println("\nWithdrawing $600...");
             c.withdraw(600.00);
         } catch (InsufficientFundsException e) {
-            System.out.println("Sorry, but you are short $" + e.getAmount());
+            System.out.println("Sorry, but you are short $"
+                    + e.getAmount());
             e.printStackTrace();
         }
     }

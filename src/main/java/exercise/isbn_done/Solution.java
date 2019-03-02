@@ -1,4 +1,4 @@
-package exercise.isbn;
+package exercise.isbn_done;
 
 import java.util.stream.IntStream;
 

@@ -39,7 +39,7 @@ public class App {
         // If you only add or remove items at end of list, use ArrayList.
         List<String> list1 = new ArrayList<String>();
          
-        // Removing or adding items elsewhere in the list?
+        // Removing or adding items elsewhere in the list, use LinkedList
         List<String> list2 = new LinkedList<String>();
          
         ////////////////SETS ///////////////////////////////////
@@ -50,7 +50,7 @@ public class App {
         // Very fast to check if a particular object exists
         // If you want to use your own objects, you must implement hashCode() and equals().
          
-        // Order is unimportant and OK if it changes?
+        // Order is unimportant and OK if it changes
         // HashSet is not ordered.
         Set<String> set1 = new HashSet<String>();
          
