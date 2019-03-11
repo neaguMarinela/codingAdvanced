@@ -5,7 +5,7 @@ public class Strfun {
       String s = "Hello"; 
 	  String s1 ="This World is crazy";
 	  String[] temp = s1.split("\\s"); 
-      s = s.concat(" Naveen");
+      s = s.concat(" marinela");
       System.out.print(s);
  	  System.out.println("");
 	  for(int i = 0; i < temp.length; i++) {

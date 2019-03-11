@@ -2,7 +2,7 @@ package strings;
 
 public class StringUniCode {
    public static void main(String[] args) {
-      String test_string = "Welcome to Naveens world";
+      String test_string = "Welcome to Java world";
       System.out.println("String under test is = "+test_string);
       
       System.out.println("Unicode code point at" 
