@@ -37,15 +37,15 @@ public class MethodReference {
         System.out.println("Frank salary: " + frankSalary);
 
         // A useful application: building a comparator based on a field
-        // comparing expects Function<comparator.Employee, U>,
+        // comparing expects Function<Employee, U>,
         // where U supports natural ordering (i.e., Comparable)
 
         Comparator<Employee> byName = Comparator.comparing(Employee::getName);
 
-        main2();
+        test();
     }
 
-    public static void main2() {
+    public static void test() {
 
         Employee dept[] = new Employee[5];
         dept[0] = new Employee("Alec", 1500);

@@ -16,10 +16,10 @@ public class App {
         //remain in added order
         testMap(linkedHashMap);
         System.out.println("******treeMap**********");
-        //it does not guarantee that the order will remain constant over time
+        //Keys sorted in natural order
         testMap(treeMap);
         System.out.println("*******hashMap*********");
-        //always ordered in natural
+        //Keys not in any particular order
         testMap(hashMap);
     }
      
@@ -34,7 +34,6 @@ public class App {
          
         for(Integer key: map.keySet()) {
             String value = map.get(key);
-             
             System.out.println(key + ": " + value);
         }
     }

@@ -3,9 +3,7 @@ package enums;
 public class App {
      
     public static void main(String[] args) {
-         
         Animal animal = Animal.DOG;
-         
         switch(animal) {
         case CAT:
             System.out.println("Cat");
@@ -17,21 +15,16 @@ public class App {
             break;
         default:
             break;
- 
         }
-         
+
         System.out.println(Animal.DOG);
         System.out.println("Enum name as a string: " + Animal.DOG.name());
-
         System.out.println(Animal.MOUSE.getName());
-
         System.out.println(Animal.MOUSE.getClass());
-         
         System.out.println(Animal.DOG instanceof Object);
         System.out.println(Animal.DOG instanceof Enum);
 
         Animal animal2 = Animal.valueOf("CAT");
-         
         System.out.println(animal2);
     }
  

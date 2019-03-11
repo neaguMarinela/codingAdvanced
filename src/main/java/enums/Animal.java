@@ -14,7 +14,7 @@ public enum Animal {
     public String getName() {
         return name;
     }
-     
+
     public String toString() {
         return "This animal is called: " + name;
     }
