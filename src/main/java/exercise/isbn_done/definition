@@ -34,7 +34,7 @@ The program should be able to verify ISBN-10 both with and
 without separating dashes.
 
 Warning:
-Converting from strings to numbers can be tricky in certain
+Converting from sat_16_03.strings to numbers can be tricky in certain
 languages. Now, it's even trickier since the check digit of
 an ISBN-10
 may be 'X' (representing '10'). For instance 3-598-21507-X is
