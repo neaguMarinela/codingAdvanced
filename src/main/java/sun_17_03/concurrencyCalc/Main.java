@@ -33,7 +33,7 @@ public class Main {
 			} else {
 				threads[i].setPriority(Thread.MIN_PRIORITY);
 			}
-			threads[i].setName("My Thread " + i);
+			threads[i].setName("My Thread " + i + " with priority: " + threads[i].getPriority());
 		}
 
 		// Wait for the finalization of the threads. Meanwhile,

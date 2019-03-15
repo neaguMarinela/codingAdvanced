@@ -2,8 +2,9 @@ package sun_17_03.innerClasses;
 
 public class Robot {
  
-    private int id;
-     
+    private static int id;
+    //private static int id;
+
     // Non-static nested classes have access to the enclosing
     // class's instance data. E.g. implement Iterable
     // Use them to group functionality.

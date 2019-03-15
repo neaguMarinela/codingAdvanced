@@ -40,7 +40,7 @@ public class SynchronizedDemo implements Runnable {
             StringBuffer sb = new StringBuffer(4 * N);
             new Thread(new SynchronizedDemo('a', sb)).start();
             new Thread(new SynchronizedDemo('b', sb)).start();
-            System.out.println("*********" + sb);
+            System.out.println("*********  -> " + sb);
             failed = sb.indexOf("aba") != -1 || sb.indexOf("bab") != -1;
             //failed = sb.indexOf("aaa") != -1 || sb.indexOf("bab") != -1;
         }
