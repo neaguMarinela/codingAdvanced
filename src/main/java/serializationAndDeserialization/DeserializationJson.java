@@ -11,10 +11,10 @@ public class DeserializationJson {
                 "\"state\":\"Plateau\",\"streetName\":\"Jonah Jann\",\"village\":\"Bukuru\",\"ward\":\"1\"}";
         Gson gson = new GsonBuilder().create();
         Address address=gson.fromJson(json, Address.class);
-        System.out.println(address.toString());
+        System.out.println("JSON: " + address.toString());
 
         JSONObject json2 = new JSONObject(json);
         String xml = XML.toString(json2);
-        System.out.println(xml);
+        System.out.println("XML: " + xml);
     }
 }
