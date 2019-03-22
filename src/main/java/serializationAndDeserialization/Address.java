@@ -2,93 +2,91 @@ package serializationAndDeserialization;
 
 public class Address {
 
-    private String city;
+    private String oras;
 
-    private String country;
+    private String tara;
 
-    private String houseNumber;
+    private String numarCasa;
 
-    private String lga;
+    private String jud;
 
-    private String state;
+    private String sat;
 
-    private String streetName;
+    private String str;
 
-    private String village;
+    private String comuna;
 
-    private String ward;
+    private String codPostal;
 
-
-    public String getCity() {
-        return city;
+    public String getOras() {
+        return oras;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setOras(String oras) {
+        this.oras = oras;
     }
 
-
-    public String getCountry() {
-        return country;
+    public String getTara() {
+        return tara;
     }
 
-    public void setCountry(String country) {
-        this.country = country;
+    public void setTara(String tara) {
+        this.tara = tara;
     }
 
-    public String getHouseNumber() {
-        return houseNumber;
+    public String getNumarCasa() {
+        return numarCasa;
     }
 
-    public void setHouseNumber(String houseNumber) {
-        this.houseNumber = houseNumber;
+    public void setNumarCasa(String numarCasa) {
+        this.numarCasa = numarCasa;
     }
 
-
-    public String getLga() {
-        return lga;
+    public String getJud() {
+        return jud;
     }
 
-    public void setLga(String lga) {
-        this.lga = lga;
+    public void setJud(String jud) {
+        this.jud = jud;
     }
 
-    public String getState() {
-        return state;
+    public String getSat() {
+        return sat;
     }
 
-    public void setState(String state) {
-        this.state = state;
+    public void setSat(String sat) {
+        this.sat = sat;
     }
 
-    public String getStreetName() {
-        return streetName;
+    public String getStr() {
+        return str;
     }
 
-    public void setStreetName(String streetName) {
-        this.streetName = streetName;
-    }
-    public String getVillage() {
-        return village;
+    public void setStr(String str) {
+        this.str = str;
     }
 
-    public void setVillage(String village) {
-        this.village = village;
+    public String getComuna() {
+        return comuna;
     }
 
-    public String getWard() {
-        return ward;
+    public void setComuna(String comuna) {
+        this.comuna = comuna;
     }
 
-    public void setWard(String ward) {
-        this.ward = ward;
+    public String getCodPostal() {
+        return codPostal;
+    }
+
+    public void setCodPostal(String codPostal) {
+        this.codPostal = codPostal;
     }
 
     @Override
     public String toString() {
-        return "Address [city=" + city + ", country=" + country
-                + ", houseNumber=" + houseNumber + ", lga=" + lga + ", state="
-                + state + ", streetName=" + streetName + ", village=" + village
-                + ", ward=" + ward + "]";
+        return "Address [oras=" + oras + ", tara=" + tara
+                + ", numarCasa=" + numarCasa + ", jud=" + jud + ", sat="
+                + sat + ", str=" + str + ", comuna=" + comuna
+                + ", codPostal=" + codPostal + "]";
     }
 }

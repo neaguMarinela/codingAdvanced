@@ -7,8 +7,8 @@ import org.json.XML;
 
 public class DeserializationJson {
     public static void main(String[] args) {
-        String json ="{\"city\":\"Jos\",\"country\":\"Nigeria\",\"houseNumber\":\"13\",\"lga\":\"Jos South\",\n" +
-                "\"state\":\"Plateau\",\"streetName\":\"Jonah Jann\",\"village\":\"Bukuru\",\"ward\":\"1\"}";
+        String json ="{\"oras\":\"Timisoara\",\"tara\":\"Romania\",\"numarCasa\":\"13\",\"jud\":\"Timis\",\n" +
+                "\"sat\":\"Remetea\",\"str\":\"Principala\",\"comuna\":\"Remetea\",\"codPostal\":\"1000\"}";
         Gson gson = new GsonBuilder().create();
         Address address=gson.fromJson(json, Address.class);
         System.out.println("JSON: " + address.toString());

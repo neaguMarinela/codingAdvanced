@@ -6,8 +6,8 @@ public class SerializationJson {
     public static void main(String[] args) {
 
         UserSimple userObject = new UserSimple(
-                "Norman",
-                "norman@futurestud.io",
+                "marinela",
+                "marinela@sda.com",
                 26,
                 true
         );
