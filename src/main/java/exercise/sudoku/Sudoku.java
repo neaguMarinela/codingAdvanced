@@ -19,7 +19,7 @@ public class Sudoku {
 
 	private boolean solve(int rowIndex, int columnIndex) {
 		
-		System.out.println("Before Called solve method: rowIndex=" + rowIndex+" colIndex=" + columnIndex);
+		System.out.println("Before Called solve method: rowIndex=" + rowIndex + " colIndex=" + columnIndex);
 		
 		if( rowIndex == Constants.BOARD_SIZE && ++columnIndex == Constants.BOARD_SIZE ){
 			System.out.println("You won!!!");

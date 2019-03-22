@@ -1,4 +1,4 @@
-package exercise.programmer;
+package exercise.programmer_done;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,7 +12,7 @@ public class SortCheck {
             "Yen", "Michelle", "Rabea", "Steve", "Patrick", "Alvaro", "Petros",
             "Charalambos", "Susie", "Rebekka", "Zoran", "Quinton", "Sean"
     };
-    private static final int NUMBER_OF_PERSONS = 1000;
+    private static final int NUMBER_OF_PERSONS = 10;
 
     public static void main(String... args) {
         List<Person> persons = new ArrayList<>();

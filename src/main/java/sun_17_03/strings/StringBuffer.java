@@ -6,9 +6,8 @@ public class StringBuffer {
    }
    private final static int MAX_LENGTH = 30;
    private static String buffer = "";
-   
    private static void emit(String nextChunk) {
-      if(buffer.length() + nextChunk.length() > MAX_LENGTH) {
+      if(buffer.length() + nextChunk.length() > MAX_LENGTH){
          System.out.println(buffer);
          buffer = "";  
       }

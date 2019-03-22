@@ -1,4 +1,4 @@
-package exercise.programmer;
+package exercise.programmer_done;
 
 public class Programmer extends Person {
     private final short iq;

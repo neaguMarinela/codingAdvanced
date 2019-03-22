@@ -1,4 +1,4 @@
-package exercise.caesarCipher;
+package exercise.caesarCipher_done;
 
 class Solution {
 
@@ -7,14 +7,14 @@ class Solution {
         String str = "";
         for (int i = 0; i < data.length(); i++) {
             char temp = (char) (data.charAt(i) + key);
-            if (temp > 'z')
+            if (temp > 'z') {
                 str += (char) (data.charAt(i) - (26 - key));
-            else
+            } else {
                 str += (char) (data.charAt(i) + key);
+            }
         }
         return str;
     }
-
     public static void main(String[] args) {
         System.out.println(rotate("testz", 23));
     }

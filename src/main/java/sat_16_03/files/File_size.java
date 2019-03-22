@@ -12,7 +12,8 @@ public class File_size {
       return file.length();
    }
    public static void main(String[] args) {
-      long size = getFileSize("/Users/marinela.neagu/SDA/codingAdvanced/Java.txt");
+      long size = getFileSize("/Users/marinela" +
+              ".neagu/SDA/codingAdvanced/Java.txt");
       System.out.println("File size in bytes: " + size);
    }
 }

@@ -8,7 +8,8 @@ public class SearchlastString {
       if(lastIndex == - 1){
          System.out.println("Hello not found");
       } else {
-         System.out.println("Last occurrence of Hello is at index "+ lastIndex);
+         System.out.println("Last occurrence of Hello" +
+                 " is at index "+ lastIndex);
       }
    }
 }

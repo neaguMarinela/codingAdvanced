@@ -1,4 +1,4 @@
-package exercise.triangle;
+package exercise.triangle_done;
 
 
 public class TriangleException extends Exception {

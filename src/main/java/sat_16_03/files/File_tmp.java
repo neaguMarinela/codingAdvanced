@@ -6,8 +6,10 @@ public class File_tmp {
    public static void main(String[] args) throws Exception {
       File file;
       //File dir = new File("C:/");
-      File dir = new File("/Users/marinela.neagu/SDA/codingAdvanced/");
-      file = File.createTempFile("JavaTemp", ".txt", dir);
+      File file1 = new File("/Users/marinela.neagu/" +
+              "SDA/codingAdvanced/");
+      file = File.createTempFile("JavaTemp", ".txt",
+              file1);
       System.out.println(file.getPath());
    }
 }

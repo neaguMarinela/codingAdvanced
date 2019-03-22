@@ -7,14 +7,11 @@ public class SimpleThread {
         t1.start();
         t2.start();
     }
-
     static class MyThread extends Thread {
         private final String name;
-
         MyThread(String name) {
             this.name = name;
         }
-
         @Override
         public void run() {
             for (int i = 1; i < 10; i++) {
@@ -22,5 +19,4 @@ public class SimpleThread {
             }
         }
     }
-
 }

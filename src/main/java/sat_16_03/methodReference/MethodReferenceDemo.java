@@ -12,30 +12,32 @@ public class MethodReferenceDemo {
         mrd.methodReference1();
         mrd.methodReference2();
     }
-
     public void methodReference0() {
         Supplier<Integer> input = () -> 3;
         Predicate<Integer> checkValue = d -> d < 5;
         Function<Integer, Double> calculate = i -> i * 5.0;
-        Consumer<Double> printResult = d -> System.out.println("Result: " + d);
+        Consumer<Double> printResult = d -> System.out.println
+                ("Result: " + d);
 
         if(checkValue.test(input.get())){
             printResult.accept(calculate.apply(input.get()));
         } else {
-            System.out.println("Input " + input.get() + " is too big.");
+            System.out.println("Input " + input.get()
+                    + " is too big.");
         }
     }
-
     public void methodReference1() {
         Supplier<Integer> input = () -> generateInput();
         Predicate<Integer> checkValue = d -> checkValue(d);
-        Function<Integer, Double> calculate = i -> new Helper().calculate(i);
+        Function<Integer, Double> calculate = i ->
+                new Helper().calculate(i);
         Consumer<Double> printResult = d -> Helper.printResult(d);
 
         if(checkValue.test(input.get())){
             printResult.accept(calculate.apply(input.get()));
         } else {
-            System.out.println("Input " + input.get() + " is too big.");
+            System.out.println("Input " + input.get() +
+                    " is too big.");
         }
 
     }

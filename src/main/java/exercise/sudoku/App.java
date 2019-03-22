@@ -16,6 +16,21 @@ public class App {
 
 		Sudoku sudoku = new Sudoku(sudokuTable);
 		sudoku.solveSudokuProblem();
-		
+
+		//https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/
+		//https://www.geeksforgeeks.org/backtracking-algorithms/
+		/*-Pick a starting point
+
+				-While the problem isn't solved
+
+					-For each path from the starting point
+
+					-Set that as the starting point and recurse
+
+					-If it returns true, then return true
+
+					-Undo the current move
+
+					-Return false */
 	}
 }

@@ -9,7 +9,6 @@ public class MethodReference {
         Thread giveMeAThread();
     }
 
-    @SuppressWarnings("unused")
     public static void main(String[] args) {
 
         // Static method

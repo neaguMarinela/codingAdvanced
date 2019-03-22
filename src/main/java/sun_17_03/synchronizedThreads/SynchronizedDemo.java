@@ -3,15 +3,12 @@ package sun_17_03.synchronizedThreads;
 public class SynchronizedDemo implements Runnable {
     public static final int N = 10;
     public static final int MAX_TRY = 1_000;
-
     private final char threadChar;
     private final StringBuffer sb;
-
     public SynchronizedDemo(char threadChar, StringBuffer sb) {
         this.threadChar = threadChar;
         this.sb = sb;
     }
-
     @Override
     public void run() {
         for (int i = 0; i < N; i++) {
@@ -24,14 +21,12 @@ public class SynchronizedDemo implements Runnable {
             }
         }
     }
-
     private void sleep() {
         try {
             Thread.sleep(1);
         } catch (InterruptedException ignored) {
         }
     }
-
     public static void main(String[] args) {
         boolean failed = false;
         int tries = 0;

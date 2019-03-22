@@ -1,4 +1,4 @@
-package exercise.programmer;
+package exercise.programmer_done;
 
 public class Person implements Comparable<Person> {
     private final String name;

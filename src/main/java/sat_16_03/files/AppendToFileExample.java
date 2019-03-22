@@ -10,11 +10,13 @@ public class AppendToFileExample {
       try { 
          String data = "Hello world";
          //File f1 = new File("D:\\abc.txt");
-         File f1 = new File("/Users/marinela.neagu/SDA/codingAdvanced/Java.txt");
+         File f1 = new File("/Users/marinela.neagu" +
+                 "/SDA/codingAdvanced/Java.txt");
          if(!f1.exists()) {
             f1.createNewFile();
          } 
-         FileWriter fileWritter = new FileWriter(f1.getAbsoluteFile(),true);
+         FileWriter fileWritter = new FileWriter(f1.getAbsoluteFile()
+                 ,true);
          BufferedWriter bw = new BufferedWriter(fileWritter);
          bw.write(data);
          bw.close();
