@@ -1,7 +1,9 @@
 package methodReference;
 
 import java.util.Comparator;
-import java.util.function.*;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
 
 public class MethodReference {
 
@@ -31,9 +33,9 @@ public class MethodReference {
         // An instance method (instance not specified)
         Function<Employee,Integer> f1 = Employee::getSalary;
 
-        Integer frankSalary = f1.apply(frank);
+        //Integer frankSalary = f1.apply(frank);
 
-        System.out.println("Frank salary: " + frankSalary);
+        //System.out.println("Frank salary: " + frankSalary);
 
         // A useful application: building a comparator based on a field
         // comparing expects Function<Employee, U>,

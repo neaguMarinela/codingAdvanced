@@ -5,6 +5,8 @@ package concurrencyCalc;
  *
  */
 public class Calculator implements Runnable {
+	public Calculator() {
+	}
 
 	/**
 	 * Method that do the calculations

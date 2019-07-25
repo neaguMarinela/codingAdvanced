@@ -10,7 +10,7 @@ public class CallByRef {
 	public static void main(String[] args) {
 		CallByRef cr=new CallByRef();
 		cr.x=10;
-		cr.addition(cr);
+		//cr.addition(cr);
 		System.out.println(cr.x);//15
 	}
 }

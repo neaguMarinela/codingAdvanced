@@ -1,4 +1,4 @@
-package composition;
+package oopConcepts.part5_composition;
 
 public class Motherboard {
 

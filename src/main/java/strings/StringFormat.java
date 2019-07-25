@@ -1,6 +1,6 @@
 package strings;
 
-import java.util.*;
+import java.util.Locale;
 
 public class StringFormat{
    public static void main(String[] args){

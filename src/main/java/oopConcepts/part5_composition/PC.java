@@ -1,4 +1,4 @@
-package composition;
+package oopConcepts.part5_composition;
 
 public class PC {
     private Case theCase;
@@ -11,13 +11,15 @@ public class PC {
         this.motherboard = motherboard;
     }
 
-    public void powerUp() {
-        theCase.pressPowerButton();
-        drawLogo();
+    public Case getTheCase() {
+        return theCase;
     }
 
-    private void drawLogo() {
-        // Fancy graphics
-        monitor.drawPixelAt(1200, 50, "yellow");
+    public Monitor getMonitor() {
+        return monitor;
+    }
+
+    public Motherboard getMotherboard() {
+        return motherboard;
     }
 }

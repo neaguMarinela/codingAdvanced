@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		// Creates an event storage
-		EventStorage storage=new EventStorage();
+		EventStorage storage= new EventStorage();
 		
 		// Creates a Producer and a Thread to run it
 		Producer producer=new Producer(storage);
