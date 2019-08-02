@@ -12,7 +12,7 @@ public class ComplexStructures {
     public static String[][] drivers = { 
         { "Fred", "Sue", "Pete" },
             { "Sue", "Richard", "Bob", "Fred" }, 
-            { "Pete", "Mary", "Bob" }, };
+            { "Pete", "Mary", "Bob" }};
  
     public static void main(String[] args) {
  

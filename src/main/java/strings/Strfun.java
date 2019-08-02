@@ -7,10 +7,10 @@ public class Strfun {
 	  String[] temp = s1.split("\\s"); 
       s = s.concat(" marinela");
       System.out.print(s);
- 	  System.out.println("");
+ 	  System.out.println(" ");
 	  for(int i = 0; i < temp.length; i++) {
          System.out.println(temp[i]);
-         System.out.println("");
+         System.out.println(" ");
 	  }
    }
 }

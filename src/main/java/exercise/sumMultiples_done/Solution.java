@@ -9,6 +9,7 @@ public class Solution {
         Integer sum = 0;
         for (int i = 1; i <= n; i++) {
             if (i % 3 == 0 || i % 5 == 0) {
+                System.out.println("Multiple of 3 or 5 until n is " + i);
                 sum += i;
             }
         }
