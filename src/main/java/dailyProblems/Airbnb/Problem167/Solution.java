@@ -5,7 +5,7 @@ import java.util.List;
 public class Solution {
 
     public static void main(String... args) {
-        String[] words = { "code", "edoc", "da", "d" };
+        String[] words = { "code", "edoc", "da", "d" };//codeedoc, edoccode, dad
         List<Pair> pairs = findAllPalindromePair(words);
         pairs.forEach(pair -> System.out.println("(" + pair.i + ", " + pair.j + ')'));
     }

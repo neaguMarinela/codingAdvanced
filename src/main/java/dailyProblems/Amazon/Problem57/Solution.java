@@ -7,7 +7,7 @@ import java.util.List;
 public class Solution {
 
     public static void main(String... args) {
-        List<String> res = splitIntoWords("the quick brown fox jumps over the lazy dog", 10);
+        List<String> res = splitIntoWords("the quick brown fox jumps over the lazy dog", 5);
         System.out.println(res != null ? Arrays.toString(res.toArray(new String[0])) : null);
     }
 

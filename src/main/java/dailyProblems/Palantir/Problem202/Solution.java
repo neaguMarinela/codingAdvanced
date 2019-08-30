@@ -5,7 +5,7 @@ public class Solution {
     public static void main(String... args) {
         System.out.println(isPalindrome(121));  // true
         System.out.println(isPalindrome(888));  // true
-        System.out.println(isPalindrome(678));  // true
+        System.out.println(isPalindrome(678));  // false
     }
 
     public static boolean isPalindrome(int val) {

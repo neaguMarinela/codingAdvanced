@@ -1,4 +1,4 @@
-package dailyProblems.Goldman149;
+package dailyProblems.GoldmanSachs.Problem149;
 
 import java.util.Arrays;
 import java.util.HashMap;

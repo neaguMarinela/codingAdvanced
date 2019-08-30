@@ -1,4 +1,4 @@
-package dailyProblems.Amazon.Problem97;
+package dailyProblems.Amazon.Problem197;
 
 import java.util.Arrays;
 

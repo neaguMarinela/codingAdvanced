@@ -10,6 +10,7 @@ public class Solution {
     public static void main(String... args) {
         System.out.println(findLongestPalindromicSubstring("aabcdcb")); // bcdcb
         System.out.println(findLongestPalindromicSubstring("bananas")); // anana
+        System.out.println(findLongestPalindromicSubstring("pohgf")); // p
     }
 
     public static String findLongestPalindromicSubstring(String str) {

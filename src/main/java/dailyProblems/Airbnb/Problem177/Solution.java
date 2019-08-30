@@ -3,8 +3,8 @@ package dailyProblems.Airbnb.Problem177;
 public class Solution {
 
     public static void main(String... args) {
-        print(rotate(createList(8, 7, 3, 5), 2));       // 8 -> 7 -> 3 -> 5
-        print(rotate(createList(1, 2, 3, 4, 5), 3));    // 3 -> 4 -> 5 -> 1 -> 2
+        print(rotate(createList(8, 7, 3, 5), 2));       // 3 -> 5 -> 8 -> 7
+        print(rotate(createList(1, 2, 3, 4, 5), 3));    // 4 -> 5 -> 1 -> 2 -> 3
     }
 
     private static Node createList(int... arr) {

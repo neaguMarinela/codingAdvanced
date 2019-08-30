@@ -5,10 +5,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * @author Oleg Cherednik
- * @since 27.01.2019
- */
 public class Solution {
 
     public static void main(String... args) {
