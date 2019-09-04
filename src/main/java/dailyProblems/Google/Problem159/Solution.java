@@ -7,6 +7,7 @@ public class Solution {
 
     public static void main(String... args) {
         System.out.println(getFirstRecurringChar("acbbac"));    // b
+        System.out.println(getFirstRecurringChar("aabcdeff"));    // a
         System.out.println(getFirstRecurringChar("abcdef"));    // null
     }
 

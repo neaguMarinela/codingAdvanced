@@ -13,14 +13,14 @@ public class Solution {
 
     public static void sort(char... arr) {
         int r = 0;
-        int b = arr.length - 1;
+        int len = arr.length - 1;
         int i = 0;
 
-        while (i <= b) {
+        while (i <= len) {
             if (arr[i] == 'R')
                 swap(arr, i++, r++);
             else if (arr[i] == 'B')
-                swap(arr, i, b--);
+                swap(arr, i, len--);
             else
                 i++;
         }

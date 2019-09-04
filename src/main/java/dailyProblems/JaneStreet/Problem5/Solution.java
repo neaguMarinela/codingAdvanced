@@ -6,7 +6,7 @@ public class Solution {
 
     public static void main(String... args) {
         System.out.println(car(cons(3, 4)));
-        System.out.println(cdr(cons(3, 4)));
+        System.out.println(cdr(cons(3, 5)));
     }
 
     private static Function<Function<Pair, Integer>, Integer> cons(int a, int b) {

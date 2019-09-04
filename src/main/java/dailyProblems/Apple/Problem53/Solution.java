@@ -37,9 +37,8 @@ public class Solution {
         }
 
         public V dequeue() {
-            if (stackDequeue.isEmpty())
-                while (!stackEnqueue.isEmpty())
-                    stackDequeue.push(stackEnqueue.remove());
+            while (!stackEnqueue.isEmpty())
+                stackDequeue.push(stackEnqueue.remove());
 
             return stackDequeue.isEmpty() ? null : stackDequeue.remove();
         }

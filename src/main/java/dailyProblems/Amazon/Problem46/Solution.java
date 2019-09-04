@@ -5,12 +5,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static java.lang.System.out;
+
 public class Solution {
 
     public static void main(String... args) {
-        System.out.println(findLongestPalindromicSubstring("aabcdcb")); // bcdcb
-        System.out.println(findLongestPalindromicSubstring("bananas")); // anana
-        System.out.println(findLongestPalindromicSubstring("pohgf")); // p
+        out.println(findLongestPalindromicSubstring("aabcdcb")); // bcdcb
+        out.println(findLongestPalindromicSubstring("bananas")); // anana
+        out.println(findLongestPalindromicSubstring("pohgf")); // p
     }
 
     public static String findLongestPalindromicSubstring(String str) {
@@ -22,7 +24,6 @@ public class Solution {
             if (positions.size() == 1)
                 continue;
 
-            out:
             for (int i = 0; i < positions.size() - 1; i++) {
                 int curFrom = positions.get(i);
 
@@ -34,7 +35,7 @@ public class Solution {
                             from = curFrom;
                             to = curTo;
                         }
-                        break out;
+                        break;
                     }
                 }
             }
