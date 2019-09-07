@@ -7,7 +7,7 @@ public class Solution {
 
     public static void main(String... args) {
         int[] arr = { 10, 15, 3, 7 };
-        System.out.println(check(arr, 17));
+        System.out.println(check(arr, 18));
     }
 
     public static boolean check(int[] arr, int k) {

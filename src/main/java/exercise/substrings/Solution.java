@@ -20,6 +20,7 @@ public class Solution {
 
     public static void main(String[] args) {
         String str = "49142";
-        System.out.println(slices(4, str));
+        int n =9;
+        System.out.println(slices(n, str));
     }
 }
