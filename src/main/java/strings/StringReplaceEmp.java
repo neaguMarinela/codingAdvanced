@@ -5,6 +5,7 @@ public class StringReplaceEmp{
       String str = "Hello World Hello Java";
       System.out.println( str.replace( 'H','W' ) );
       System.out.println( str.replaceFirst("He", "Wa") );
-      System.out.println( str.replaceAll("He", "Ha") );
+      System.out.println( str.replaceAll("He", "WEEE") );
+      System.out.println( str.replaceAll("He", "") );
    }
 }

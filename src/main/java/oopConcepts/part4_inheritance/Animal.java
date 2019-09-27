@@ -8,22 +8,20 @@ public class Animal {
     private int size;
     private int weight;
 
-    public Animal(String name, int brain, int body, int size, int weight) {
+    public Animal(String name, int brain, int body,
+                  int size, int weight) {
         this.name = name;
         this.brain = brain;
         this.body = body;
         this.size = size;
         this.weight = weight;
     }
-
     public void eat() {
         System.out.println("Animal.eat() called");
-
     }
-
     public void move(int speed) {
-        System.out.println("Animal.move() called.  Animal is moving at " +speed);
-
+        System.out.println("Animal.move() called." +
+                "Animal is moving at " +speed);
     }
 
 

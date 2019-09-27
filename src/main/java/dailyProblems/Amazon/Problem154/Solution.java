@@ -10,7 +10,6 @@ public class Solution {
 
     public static void main(String... args) {
         int[] arr = {9, 12, 3, 5, 14, 10, 10};
-        System.out.println(Arrays.toString(arr));
 
         Stack<Integer> stack = new Stack<>();
 

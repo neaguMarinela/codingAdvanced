@@ -1,4 +1,4 @@
-package constructor;
+/*package constructor;
 
 public class Account {
     private String number;
@@ -75,4 +75,4 @@ public class Account {
     public void setCustomerPhoneNumber(String customerPhoneNumber) {
         this.customerPhoneNumber = customerPhoneNumber;
     }
-}
+}*/

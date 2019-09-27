@@ -1,4 +1,4 @@
-package constructor;
+/*package constructor;
 
 public class Main {
 
@@ -27,4 +27,4 @@ public class Main {
         bobsAccount.deposit(51.0);
         bobsAccount.withdrawal(100.0);
     }
-}
+}*/

@@ -3,12 +3,13 @@ package strings;
 public class SearchStringEmp{
    public static void main(String[] args) {
       String strOrig = "Hello readers";
-      int intIndex = strOrig.indexOf("Hello");
+      int intIndex = strOrig.indexOf("ll");
       
       if(intIndex == - 1) {
          System.out.println("Hello not found");
       } else {
-         System.out.println("Found Hello at index " + intIndex);
+         System.out.println("Found Hello at index "
+                 + intIndex);
       }
    }
 }

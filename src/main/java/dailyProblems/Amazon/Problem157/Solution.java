@@ -19,7 +19,7 @@ public class Solution {
 
         int noPair = 0;
 
-        for (int count : map.values())
+        for (int count : map.values())  //carrace
             if (count % 2 != 0)
                 noPair++;
 
