@@ -41,9 +41,12 @@ public class Solution {
         int val = x;
         int tmp = 0;
 
+        System.out.println("val " + x);
         while (x > 0) {
             tmp = tmp * 10 + x % 10;
             x /= 10;
+            System.out.println("x " + x);
+            System.out.println("tmp " + tmp);
         }
 
         return tmp == val;

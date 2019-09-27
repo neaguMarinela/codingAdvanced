@@ -17,15 +17,15 @@ public class App {
             break;
         }
 
-        System.out.println(Animal.DOG);
-        System.out.println("Enum name as a string: " + Animal.DOG.name());
-        System.out.println(Animal.MOUSE.getName());
-        System.out.println(Animal.MOUSE.getClass());
-        System.out.println(Animal.DOG instanceof Object);
-        System.out.println(Animal.DOG instanceof Enum);
+        System.out.println(Animal.DOG);//Dog and This animal is called: Fido
+        System.out.println("Enum name as a string: " + Animal.DOG.name());//Enum name as a string: DOG
+        System.out.println(Animal.MOUSE.getName());//Jerry
+        System.out.println(Animal.MOUSE.getClass());//class enums.Animal
+        System.out.println(Animal.DOG instanceof Object);//true
+        System.out.println(Animal.DOG instanceof Enum);//true
 
         Animal animal2 = Animal.valueOf("CAT");
-        System.out.println(animal2);
+        System.out.println(animal2);//This animal is called: Fergus
     }
  
 }
